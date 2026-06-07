@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lead Tracker Application | CoffeeCodeDev</title>
+    <link rel="stylesheet" href="../Style.css">
+</head>
+<body>
+    <nav>
+        <div class="container nav-container">
+            <a href="../Home.html" class="logo">CoffeeCodeDev</a>
+            <ul class="nav-links">
+                <li><a href="../Home.html">Home</a></li>
+                <li><a href="../Navigation/AboutUs.html">About Us</a></li>
+                <li><a href="../Home.html#portfolio">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container section-padding project-detail-content">
+        <span class="badge badge-easy">Easy Difficulty</span>
+        <h1 class="section-title">Lead Tracker Application</h1>
+        <img src="../assets/LeadTracker.jpg" alt="Lead Tracker Application Console Output" class="feature-image">
+        
+        <h2>Project Description</h2>
+        <p>
+            The <strong>Lead Tracker Application</strong> is a robust, console-based Lead Management System built using <strong>Java</strong>. This project follows a clean <strong>3-tier architecture</strong>, ensuring a clear separation of concerns between data management, business logic, and the presentation layer.
+        </p>
+        
+        <h2>Key Features</h2>
+        <ul>
+            <li>
+                <strong>Lead Management:</strong> Comprehensive tracking of leads through various status transitions such as New, Contacted, Won, and Lost.
+            </li>
+            <li>
+                <strong>Data Integrity:</strong> Implements advanced custom exception handling and robust input validation to ensure reliable data processing.
+            </li>
+            <li>
+                <strong>Analytics & Reporting:</strong> Leverages the powerful <strong>Java Stream API</strong> for efficient revenue tracking and real-time status reporting.
+            </li>
+            <li>
+                <strong>3-Tier Architecture:</strong> Modular design for better maintainability and scalability.
+            </li>
+        </ul>
+
+        <h2>Technologies Used</h2>
+        <ul>
+            <li><strong>Java 17+</strong></li>
+            <li><strong>Maven</strong> (Build Tool)</li>
+            <li><strong>JUnit 5</strong> (Testing Framework)</li>
+            <li><strong>Java Stream API</strong></li>
+            <li><strong>Object-Oriented Design</strong>: Encapsulation, Separation of Concerns.</li>
+        </ul>
+
+        <h2>How to Run</h2>
+        <ol>
+            <li>Clone the repository from <a href="https://github.com/coffeecodedev3-dev/Lead-Tracker" style="color: var(--accent-primary); text-decoration: underline;">GitHub</a>.</li>
+            <li>Build the project using Maven: <code>./mvnw clean install</code></li>
+            <li>Run the application: <code>./mvnw exec:java -Dexec.mainClass="com.aryapanda.LeadTracker.LeadTrackerRunner"</code></li>
+            <li>Run tests: <code>./mvnw test</code></li>
+        </ol>
+        
+        <div style="margin-top: 40px; text-align: center;">
+            <a href="../Home.html#portfolio" class="btn">Back to Portfolio</a>
+        </div>
+    </main>
+
+    <footer class="container">
+        <p>&copy; 2026 CoffeeCodeDev. Built with Java and Passion.</p>
+    </footer>
+</body>
+</html>

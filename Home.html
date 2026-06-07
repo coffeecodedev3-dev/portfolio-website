@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeeCodeDev | Home</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <nav>
+        <div class="container nav-container">
+            <a href="Home.html" class="logo">CoffeeCodeDev</a>
+            <ul class="nav-links">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Navigation/AboutUs.html">About Us</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to <span>CoffeeCodeDev</span></h1>
+                <p>We transform <i>complex, manual workflows into streamlined, automated realities</i> using the power of Java. Less repetitive effort, more seamless execution. Grab a cup of coffee, and let our code run the show.</p>
+                <a href="#portfolio" class="btn">View My Work</a>
+            </div>
+            <div class="hero-image">
+                <img src="./assets/bannerPage.jpg" alt="CoffeeCodeDev Hero Image">
+            </div>
+        </section>
+
+        <section id="portfolio" class="section-padding">
+            <h2 class="section-title">My Projects</h2>
+            
+            <div class="category">
+                <h3 class="category-title">Java Projects</h3>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <img src="./assets/CoreBanking.jpg" alt="Core Banking Application">
+                        <div class="project-card-content">
+                            <span class="badge badge-easy">Easy</span>
+                            <h3>Core Banking Application</h3>
+                            <p>A console-based banking application written in pure Java. Demonstrates core OOP principles, exception handling, and robust input validation.</p>
+                            <a href="./portfolio/CoreBankingApp.html" class="btn">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./assets/LeadTracker.jpg" alt="Lead Tracker Application">
+                        <div class="project-card-content">
+                            <span class="badge badge-easy">Easy</span>
+                            <h3>Lead Tracker Application</h3>
+                            <p>A 3-tier Java application for managing and tracking sales leads with robust analytics using the Stream API.</p>
+                            <a href="./portfolio/LeadTracker.html" class="btn">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category">
+                <h3 class="category-title">Website Projects</h3>
+                <div class="project-grid">
+                    <!-- Future website projects will go here -->
+                    <p style="opacity: 0.6; font-style: italic;">Coming soon...</p>
+                </div>
+            </div>
+
+            <div class="category">
+                <h3 class="category-title">Automation Projects</h3>
+                <div class="project-grid">
+                    <!-- Future automation projects will go here -->
+                    <p style="opacity: 0.6; font-style: italic;">Coming soon...</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container">
+        <p>&copy; 2026 CoffeeCodeDev. Built with Java and Passion.</p>
+    </footer>
+</body>
+</html>

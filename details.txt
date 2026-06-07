@@ -1,0 +1,4 @@
+background colour : 2B2A2A
+headline: FEB05D
+headline 2: 5A7ACD
+text: F5F2F2
